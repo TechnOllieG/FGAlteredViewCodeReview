@@ -1,6 +1,16 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains Rider
+.idea/
+
+# ReSharper
+*.DotSettings.user
+
 # Compiled Object files
 *.slo
 *.lo
@@ -46,8 +56,8 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+!Binaries/*
+!Plugins/*/Binaries/*
 
 # Builds
 Build/*
